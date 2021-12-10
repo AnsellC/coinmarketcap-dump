@@ -128,7 +128,7 @@ func main() {
 				fmt.Sprintf("%.2f%%", quote.PercentChange7d),
 				ac.FormatMoney(quote.MarketCap),
 				ac.FormatMoney(quote.Volume24h),
-				p.Sprintf("%f", crypto.CirculatingSupply),
+				p.Sprintf("%.2f", crypto.CirculatingSupply),
 			})
 		}
 
